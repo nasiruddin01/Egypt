@@ -120,6 +120,7 @@ header .title .scroll a {
 }
 
 .about {
+  margin: 0 19.1rem;
   text-align: center;
 }
 
@@ -146,6 +147,7 @@ header .title .scroll a {
 .about .text-area p {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
 }
 
 .container {
@@ -192,6 +194,7 @@ header .title .scroll a {
   font-size: 1rem;
   line-height: 1rem;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
 }
 
 .container .card .text a {
@@ -282,7 +285,7 @@ footer .footer .footer-bottom {
 }
 
 footer .footer .footer-bottom p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 footer .footer .footer-bottom img {
@@ -295,6 +298,7 @@ footer .footer .footer-bottom a {
   text-decoration: none;
   padding-left: 6rem;
   color: #000;
+  font-family: 'Lora', serif;
 }
 
 footer .footer .footer-bottom::before {

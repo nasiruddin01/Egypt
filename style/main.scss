@@ -103,6 +103,7 @@ header {
 }
 
 .about {
+    margin: 0 19.1rem;
     text-align: center;
     h4 {
         font-size: 0.7rem;
@@ -122,6 +123,7 @@ header {
         p {
             color: #fff;
             font-family: 'Montserrat', sans-serif;
+            line-height: 1.5rem;
         }
     }
 }
@@ -162,6 +164,7 @@ header {
                 font-size: 1rem;
                 line-height: 1rem;
                 font-family: 'Montserrat', sans-serif;
+                line-height: 1.5rem;
             }
             a {
                 font-size: 1rem;
@@ -237,7 +240,7 @@ footer {
             align-items: center;
             border-top: 1px solid #000;
             p {
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Lora', serif;
             }
             img {
                 height: 1.5rem;
@@ -248,6 +251,7 @@ footer {
                 text-decoration: none;
                 padding-left: 6rem;
                 color: #000;
+                font-family: 'Lora', serif;
             }
             &::before {
                 height: 100%;
