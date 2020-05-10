@@ -309,3 +309,71 @@ footer .footer .footer-bottom::before {
   left: 0;
   content: '';
 }
+
+/*
+@media (min-width: 1024px) {
+    header {
+        width: 100%;
+        height: 100vw;
+        padding-top: 1rem;
+        margin-bottom: 10rem;
+    }
+    .title {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        h4 {
+            margin-bottom: 0rem;
+        }
+        p {
+            margin-top: 0rem;
+        }
+        h1 {
+            margin: 0;
+        }
+    }
+    .about {
+        margin: 0;
+        text-align: center;
+        .text-area {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 60rem;
+            margin: 0rem;
+            padding: 0;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: 100rem;
+            margin: 0;
+        }
+    }
+    .container {
+        text-align: center;
+        h1 {
+            margin-bottom: 4rem;
+        }
+        .card {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            padding-top: 3rem;
+            .text {
+                padding-bottom: 4rem;
+            }
+        }
+        .btn {
+            margin-top: 0rem;
+        }
+    }
+}
+*/
+/*
+@media (max-width: 768px) {
+    
+    }
+}*/
