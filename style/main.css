@@ -152,6 +152,7 @@ header .title .scroll a {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .container {
@@ -371,5 +372,8 @@ footer .footer .footer-bottom::before {
   }
   .container .btn {
     margin-top: 0rem;
+  }
+  .footer {
+    width: 100%;
   }
 }
