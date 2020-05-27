@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   background: #d8b186;
 }
 
@@ -62,14 +62,14 @@ header nav ul li:last-child div {
   height: 1.8rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.10rem;
+  grid-gap: 0.1rem;
 }
 
 header nav ul li:last-child div div {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color: #F2CB92;
+  background-color: #f2cb92;
 }
 
 header .title {
@@ -82,21 +82,21 @@ header .title {
 
 header .title h4 {
   font-size: 0.7rem;
-  color: #AD764B;
+  color: #ad764b;
   margin-bottom: 0rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header .title p {
-  color: #AD764B;
+  color: #ad764b;
   margin-top: 0rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header .title h1 {
   margin: 0;
   font-size: 2.5rem;
-  color: #FEFEFE;
+  color: #fefefe;
   text-transform: capitalize;
 }
 
@@ -116,17 +116,17 @@ header .title .scroll img {
 header .title .scroll a {
   text-decoration: none;
   font-size: 0.6rem;
-  color: #FEFEFE;
+  color: #fefefe;
 }
 
 .about {
-  margin: 0 19.1rem;
+  margin: 0 auto;
   text-align: center;
 }
 
 .about h4 {
   font-size: 0.7rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about h1 {
@@ -144,9 +144,13 @@ header .title .scroll a {
   grid-gap: 4rem;
 }
 
-.about .text-area p {
+.about .text-area div {
+  margin: 0 3rem;
+}
+
+.about .text-area div p {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
 }
 
@@ -168,7 +172,7 @@ header .title .scroll a {
 .container h4 {
   font-size: 0.7rem;
   color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container h3 {
@@ -193,7 +197,7 @@ header .title .scroll a {
   color: #fff;
   font-size: 1rem;
   line-height: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
 }
 
@@ -211,7 +215,7 @@ header .title .scroll a {
 .display h4 {
   font-size: 0.7rem;
   color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .display h2 {
@@ -223,7 +227,7 @@ header .title .scroll a {
 }
 
 .display p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer {
@@ -242,7 +246,7 @@ footer .footer {
 footer .footer h4 {
   margin-bottom: 0;
   font-size: 0.7rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer .footer h1 {
@@ -251,7 +255,7 @@ footer .footer h1 {
 }
 
 footer .footer h1 span {
-  color: #FEFEFE;
+  color: #fefefe;
 }
 
 footer .footer .button {
@@ -285,7 +289,7 @@ footer .footer .footer-bottom {
 }
 
 footer .footer .footer-bottom p {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 footer .footer .footer-bottom img {
@@ -298,7 +302,7 @@ footer .footer .footer-bottom a {
   text-decoration: none;
   padding-left: 6rem;
   color: #000;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 footer .footer .footer-bottom::before {
@@ -307,73 +311,65 @@ footer .footer .footer-bottom::before {
   position: absolute;
   bottom: 0;
   left: 0;
-  content: '';
+  content: "";
 }
 
-/*
-@media (min-width: 1024px) {
-    header {
-        width: 100%;
-        height: 100vw;
-        padding-top: 1rem;
-        margin-bottom: 10rem;
-    }
-    .title {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        align-items: center;
-        position: relative;
-        h4 {
-            margin-bottom: 0rem;
-        }
-        p {
-            margin-top: 0rem;
-        }
-        h1 {
-            margin: 0;
-        }
-    }
-    .about {
-        margin: 0;
-        text-align: center;
-        .text-area {
-            display: grid;
-            grid-template-columns: 1fr;
-            width: 60rem;
-            margin: 0rem;
-            padding: 0;
-            text-align: center;
-        }
-        img {
-            width: 100%;
-            height: 100rem;
-            margin: 0;
-        }
-    }
-    .container {
-        text-align: center;
-        h1 {
-            margin-bottom: 4rem;
-        }
-        .card {
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-            padding-top: 3rem;
-            .text {
-                padding-bottom: 4rem;
-            }
-        }
-        .btn {
-            margin-top: 0rem;
-        }
-    }
+@media (max-width: 1024px) {
+  header {
+    width: 100%;
+    height: 100vw;
+    padding-top: 1rem;
+    margin-bottom: 10rem;
+  }
+  .title {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    position: relative;
+  }
+  .title h4 {
+    margin-bottom: 0rem;
+  }
+  .title p {
+    margin-top: 0rem;
+  }
+  .title h1 {
+    margin: 0;
+  }
+  .about {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .about .text-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0rem;
+    padding: 0;
+    text-align: center;
+  }
+  .about img {
+    width: 90% !important;
+    margin: auto;
+  }
+  .container {
+    text-align: center;
+  }
+  .container h1 {
+    margin-bottom: 4rem;
+  }
+  .container .card {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  .container .card .text {
+    padding-bottom: 4rem;
+  }
+  .container .btn {
+    margin-top: 0rem;
+  }
 }
-*/
-/*
-@media (max-width: 768px) {
-    
-    }
-}*/
