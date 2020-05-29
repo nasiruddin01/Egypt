@@ -229,13 +229,13 @@
                 }
             }
             .media {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
+                display: flex;
+                justify-content: space-evenly;
                 align-items: center;
                 margin-bottom: 6rem;
+                flex-wrap: wrap;
                 img {
                     width: 8rem;
-                    margin-left: 6rem;
                     opacity: 0.3;
                 }
             }
@@ -386,7 +386,6 @@
                 .media {
                     img {
                         width: 4rem;
-                        margin-left: 3rem;
                     }
                 }
             }
@@ -466,9 +465,7 @@
                 h1 {
                     font-size: 1.5rem;
                 }
-                .media {
-                    display: none;
-                }
+                .media {}
                 .footer-bottom {
                     display: flex;
                     flex-direction: row;
